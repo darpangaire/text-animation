@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html,body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  /* background-color: #111; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+h1{
+  font-size: 100px;
+  
+}
+
+h1 span {
+  display: inline-block;
+}
+
+h1 .a {
+  color:#FF6347;
+}
+
+h1 .b {
+  color: #4682b4;
+}
+
+.space {
+  width: 20px;
+  display: inline-block;
+}
